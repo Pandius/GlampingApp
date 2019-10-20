@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router } from '@reach/router'
+import { Router, navigate } from '@reach/router'
 import Navigation from './components/Navigation'
 import Home from './pages/Home'
 import Sites from './pages/Sites'
@@ -21,7 +21,6 @@ class App extends React.Component {
         <Router>
           <Home path="/" />
           <Sites path="/sites" />
-          <SitesList path="/sitesSerch" feature={this.state.feature} />
           <SitesList path="/siteslist/:feature" />
           <SitesList path="/siteslist" />
           <SitePage path="/sites/:id" />
@@ -34,6 +33,13 @@ class App extends React.Component {
 
   searchBy = (word) => {
     this.setState({ feature: word })
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.feature !== this.state.feature) {
+      navigate(`/siteslist/${this.state.feature}`)
+
+    }
   }
 }
 
