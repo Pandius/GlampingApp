@@ -1,22 +1,211 @@
-.App {
-  text-align: center;
+.navbar {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  letter-spacing: 0.1rem;
+  background-color: rgba(49, 70, 22, 0.6) !important;
+ }
+
+ .dropdown-menu{
+  background-color: rgba(49, 70, 22, 0.6) !important;
+  color:white;
+  font-family: 'Oswald', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-}
+ a {
+   color: white;
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+ .navbar-light .navbar-nav .nav-link {
   color: white;
 }
+ 
+ .navbar-nav {
+  padding-right: 0.7rem;
+ }
 
-.App-link {
-  color: #09d3ac;
+ .navbar-dark .navbar-nav .nav-link {
+  padding-top: 0.8rem;
+  color: white;
+ }
+
+ header {
+   margin-top: 80px;
+   text-align: center;
+   font-size: 50px;
+ }
+
+body {
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-image: url('./pictures/glamping.jpg');
+  background-position: center;
+  height: 100%;
+  margin: 0px;
+} 
+
+.App {
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: aliceblue;
+}
+
+.a.nav-link {
+  color: azure;
+}
+
+.brandImg {
+  height: 3rem;
+  width: 15rem;
+}
+
+.homeLogo {
+  display:block;
+  max-width: 300px;
+  margin: 0 auto;
+height: 5rem;
+  margin-top: 90%;
+  width: 100%;
+  margin-bottom: 0%;
+}
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+}
+
+.homeLogo  {
+  display:block;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 0%;
+width: 20rem;
+  margin-top: 25rem;
+}
+}
+
+.navbar-toggler-icon .button {
+  background-image: url("data:image/svg+xml;..") !important;
+  color: white  !important;
+}
+
+.Sites {
+  margin: 0 auto;
+  margin-top: 20rem;
+}
+
+.loading {
+  margin: 0 auto;
+  margin-top: 28rem;
+}
+
+.carousel-inner img {
+  margin: auto;
+  border: solid green;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow:3px 3px rgba(49, 70, 22, 0.6)
+}
+
+.carousel-caption {
+  font-family: 'Josefin Sans', sans-serif ;
+
+text-shadow: 3px 3px black ;
+
+}
+@media (max-width:370px) {
+  .hide { display: none; } 
+  
+}
+
+.card {
+  width: 18rem !important;
+  height: 25rem !important;
+  margin: 1rem;
+  background-color: rgba(49, 70, 22, 0.6);
+  color:white;
+  font-family: 'Oswald', sans-serif;
+ }
+
+ .SitesList {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none ;
+  margin: 0 auto;
+
+  margin-top: 5rem;
+}
+
+.siteImg {
+width: 15rem;
+}
+
+.postCode {
+  color: aquamarine;
+}
+
+.card-link {
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.jumbotron {
+  background-color: rgba(49, 70, 22, 0.6) !important;
+  width: 70%;
+  height: 70% !important;
+  font-family: 'Oswald', sans-serif;
+  margin: 0 auto;
+
+  margin-top: 10rem;
+  justify-content: center;
+
+
+
+}
+
+.sitePageImg {
+  border: solid green;
+  width: 70%;
+  margin-bottom: 3rem;
+}
+
+.activities  {
+  border-top: solid green;
+}
+
+.pitches {
+  border-top: solid green;
+}
+
+.postCode {
+  border-top: solid green;
+  margin-top:2rem;
+}
+
+.footer {
+  position: relative !important;
+left:0 !important;
+bottom:0 !important;
+right:0 !important;
+}
+
+.react-calendar {
+  margin: 0 auto;
+margin-top: 2rem;
+background-color:  rgba(49, 70, 22, 0.6);
+}
+
+.calendar {
+  border-top: solid green;
+}
+
+.errorPage {
+  margin-top:5rem;
 }
