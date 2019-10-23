@@ -48,6 +48,12 @@ body {
   text-align: center;
   font-family: 'Abel', sans-serif;
   color: aliceblue;
+  background-attachment: fixed;
+  background-image: url('./pictures/glamping.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0px;
 }
 
 .a.nav-link {
