@@ -24,6 +24,7 @@ class SitesList extends React.Component {
 
             <div className="SitesList">
                 <ul className="SitesList">
+                    {this.props.feature ? <h3 className="filterBy">Filtered by: {this.props.feature}</h3> : null}
                     {sites.map(site => {
                         return (
                             <li key={site.id}>

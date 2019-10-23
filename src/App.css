@@ -39,6 +39,7 @@ body {
   background-attachment: fixed;
   background-image: url('./pictures/glamping.jpg');
   background-position: bottom;
+  background-repeat: no-repeat;
   height: 100%;
   margin: 0px;
 } 
@@ -116,10 +117,11 @@ h2 {
 text-shadow: 3px 3px black ;
 
 }
-@media (max-width:370px) {
+@media (max-width:376px) {
   .hide { display: none; 
-    background-image: url('./pictures/glamping.jpg') !important;
+    
 } 
+
   
 }
 
@@ -209,4 +211,16 @@ background-color:  rgba(49, 70, 22, 0.6);
 
 .errorPage {
   margin-top:5rem;
+}
+
+.filterBy {
+
+  font-family: 'Pacifico', cursive ;
+  color: green;
+  text-shadow: 1px 1px black ;
+
+
+
+
+
 }
