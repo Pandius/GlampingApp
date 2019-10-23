@@ -37,9 +37,8 @@
 
 body {
   background-attachment: fixed;
-  background-repeat:no-repeat;
   background-image: url('./pictures/glamping.jpg');
-  background-position: center;
+  background-position: top;
   height: 100%;
   margin: 0px;
 } 
