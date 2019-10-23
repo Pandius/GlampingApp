@@ -3,8 +3,8 @@ body {
   background-image: url('./pictures/glamping.jpg');
   background-position: bottom;
   background-repeat: no-repeat;
-  height: 100%;
-  margin: 0px;
+  margin: 0;
+  
 } 
 .navbar {
   text-transform: uppercase;
@@ -19,6 +19,9 @@ body {
   color:white;
   font-family: 'Oswald', sans-serif;
 }
+
+
+
 
  a {
    color: white;
