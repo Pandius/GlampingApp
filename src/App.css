@@ -118,7 +118,9 @@ text-shadow: 3px 3px black ;
 
 }
 @media (max-width:370px) {
-  .hide { display: none; } 
+  .hide { display: none; 
+    background-image: url('./pictures/glamping.jpg') !important;
+} 
   
 }
 

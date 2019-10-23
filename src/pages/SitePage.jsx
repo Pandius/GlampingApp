@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Jumbotron } from "react-bootstrap";
 import Loading from "../utils/Loading";
 import * as api from "../api";
-// import { dateFormat } from "../utils/utils";
 import Dates from '../components/Dates'
 import { Link } from "@reach/router";
 import { dateFormat } from '../utils/utils'
